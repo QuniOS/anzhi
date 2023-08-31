@@ -594,10 +594,10 @@ window.jsfxr = function(r) {
 
     ctx.font = "bold 15px Arial";
     ctx.fillStyle = onLine ? "silver" : "#8cdb40";
-    ctx.fillText("OFFLINE" + (!onLine ? " (+40)" : ""), 10, 30);
+    ctx.fillText("OFFLINE2" + (!onLine ? " (+40)" : ""), 10, 30);
 
     ctx.fillStyle = isPWA ? "red" : "silver";
-    ctx.fillText((isPWA ? "(+20) " : "") + "PWA", isPWA ? 230 : 260, 30);
+    ctx.fillText((isPWA ? "(+20) " : "") + "PWA2", isPWA ? 230 : 260, 30);
 
     ctx.font = "bold 50px Arial";
     ctx.fillStyle = "#394651";
